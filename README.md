@@ -1,4 +1,36 @@
 # Gestao-do-Acervo-Digital
+ 
+Gestao-do-Acervo-Digital/
+│
+├── src/
+│   ├── MainConsole.java // Este arquivo contém a classe MainConsole com o método main e as funções de menu para console
+│   ├── Library.java     // Define a classe Library com as funções de gestão da biblioteca
+│   ├── Book.java        // Define a classe Book com as propriedades e métodos de um livro
+│   ├── User.java        // Define a classe User com as propriedades e métodos de um usuário
+│   └── LibraryGUI.java  // Interface gráfica para interagir com a biblioteca (requere ambiente gráfico)
+│
+├── docs/
+│   ├── DesignDocs.md    // Documentação do design do sistema, descrevendo as principais decisões de implementação e estrutura
+│   └── UserManual.md    // Manual do usuário que fornece instruções sobre como usar o sistema
+│
+├── tests/
+│   ├── BookTest.java    // Arquivo de teste unitário para a classe Book, garantindo que os métodos funcionem conforme esperado
+│   ├── UserTest.java    // Arquivo de teste unitário para a classe User, garantindo que os métodos funcionem conforme esperado
+│   └── LibraryTest.java // Arquivo de teste unitário para a classe Library, garantindo que os métodos de gestão da biblioteca funcionem conforme esperado
+│
+├── data/
+│   ├── initial_data.csv // Arquivo CSV contendo dados iniciais de livros e usuários para teste ou configuração inicial do sistema
+│   └── database.sql     // Script SQL para a criação do banco de dados, incluindo tabelas e dados iniciais
+│
+├── screenshots/
+│   ├── screenshot1.png  // Captura de tela do sistema em uso, ilustrando a interface ou funcionalidades principais
+│   └── screenshot2.png  // Outra captura de tela do sistema, mostrando diferentes aspectos ou funções
+│
+├── .gitignore           // Arquivo para especificar quais arquivos e diretórios devem ser ignorados pelo Git, evitando que arquivos desnecessários sejam versionados
+├── LICENSE              // Arquivo de licença do projeto, especificando os termos de uso, distribuição e modificações do código
+└── README.md            // Arquivo que fornece uma visão geral do projeto, incluindo descrição, instruções de configuração e execução, requisitos e outras informações relevantes
+
+
 
 
 Estrutura Lógica da Aplicação
