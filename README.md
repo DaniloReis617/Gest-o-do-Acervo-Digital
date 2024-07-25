@@ -80,3 +80,6 @@ Estrutura de Dados
 Os dados são gerenciados principalmente através de coleções em memória (por exemplo, ArrayList), permitindo manipulação eficiente e rápida dos dados do acervo e dos usuários.
 Fluxo de Trabalho
 A aplicação inicia pelo Main, que configura o ambiente inicial (adiciona alguns livros e usuários para teste) e entra em um loop onde os usuários podem escolher entre várias operações. As operações são processadas pela classe Library, que manipula os dados de livros e usuários conforme as requisições.
+
+Para executar o app use.
+java -cp src MainConsole
